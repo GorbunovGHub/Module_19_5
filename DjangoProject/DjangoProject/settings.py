@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'task1',
+    # 'task1',
+    'myblog',
 ]
 
 MIDDLEWARE = [
@@ -56,7 +57,8 @@ ROOT_URLCONF = 'DjangoProject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],
+        # 'DIRS': [BASE_DIR / 'templates'],
+        'DIRS': [BASE_DIR / 'templates/my_blog_pages'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
